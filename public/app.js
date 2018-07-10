@@ -1,7 +1,7 @@
 // Define Components
 
-let Home = {template: '<h1>Home</h1>'};
-let About = {template: '<h1>About</h1>'};
+let Home = HomeComponent();
+let About = AboutComponent();
 
 let routes = [
     {path: '/', component: Home},
