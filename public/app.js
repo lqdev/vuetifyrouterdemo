@@ -1,10 +1,13 @@
 // Define Components
 
-let Home = HomeComponent();
+import {HomeComponent} from './components/home.component';
+
+//let Home = HomeComponent();
+//let Home = HomeComponent;
 let About = AboutComponent();
 
 let routes = [
-    {path: '/', component: Home},
+    {path: '/', component: HomeComponent.template},
     {path: '/about', component: About}
 ]
 
